@@ -1,0 +1,17 @@
+<?php
+
+define ("DBHOST", "localhost"); //ñåðâåð áàçû äàííûõ
+
+define ("DBNAME", "off_site"); // èìÿ áàçû äàííûõ
+
+define ("DBUSER", "site"); // mysql ïîëüçîâàòåëü
+
+define ("DBPASS", "NslE5CZz");  // ïàðîëü mysql
+
+define ("PREFIX", "vii"); /* ÍÅ ÒÐÎÃÀÒÜ */
+
+define ("COLLATE", "cp1251"); /* ÍÅ ÒÐÎÃÀÒÜ */
+
+$db = new db; /* ÍÅ ÒÐÎÃÀÒÜ */
+
+?>

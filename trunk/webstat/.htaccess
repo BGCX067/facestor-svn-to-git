@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/facestor.ru/webstat"
+AuthUserFile /home/site/data/etc/43003984.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
